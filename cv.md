@@ -23,6 +23,6 @@
 
 * Experience
     * Geophysicist - 12 years
-    * WebPrograming - 1 year (only learnign)
+    * WebPrograming - 1 year (only learning)
 
 > English level - Upper Intermediate
