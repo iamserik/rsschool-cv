@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+/* Common styles */
+html, 
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #2f2f2f;
+  background-color: #f1f1f1;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: rgb(248, 122, 19);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Content section */
+header {
+  border-bottom: 1px solid #333;
+}
+
+header h1 {
+  text-align: center;
+  margin: .5rem;
+}
+
+section {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 20%;
+}
+
+.avatar img {
+    width: 80%;
+}
+
+.email {
+  margin: 1rem 0;
+}
+
+.bio,
+.soft-skills,
+.experience {
+  margin: .5rem 0;
+  padding: .5rem 0;
+  border-top: 1px solid #333;
+}
+
+h3 {
+  margin-bottom: .5rem;
+}
+
+
+.soft-skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.soft-skills ul li {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: .5rem .8rem;
+  margin: .5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+footer a {
+  margin: .5rem .5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .personal-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .avatar {
+      width: 30%;
+  }
+
+  .avatar img {
+      width: 80%;
+  }
+
+  .email {
+    margin: .5rem 0;
+  }
+}
