@@ -13,13 +13,14 @@
     * JavaScript
 
 > Code example:
-    ```
-    function hello(s){
-        console.log(s)
-    }
 
-    hello('Hello World!');
-    ```
+```
+function hello(s){
+    console.log(s)
+}
+
+hello('Hello World!');
+```
 
 * Experience
     * Geophysicist - 12 years
