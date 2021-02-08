@@ -16,7 +16,7 @@
 
 ```
 function hello(s){
-    console.log(s)
+    console.log(s);
 }
 
 hello('Hello World!');
