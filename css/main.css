@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #21262B;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+    width: 258px;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #21262B;
+}
+
+a:hover {
+    color: #626264;
+}
+
+.container {
+    width: 880px;
+    margin: 0 auto;
+}
+
+.left-border {
+    border-left: 1px solid #626264;
+    padding: 0 36px 30px 36px;
+    position: relative;
+}
+
+.left-border:before {
+    content: '';
+    position: absolute;
+    background: #626264;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 0;
+    left: -4px;
+}
+
+.lead {
+    font-size: 14px;
+}
+
+/* ---------- Header --------------- */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #272C32;
+    color: #ffffff;
+    padding: 55px;
+}
+
+.avatar {
+    width: 175px;
+    height: 175px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.contact li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons {
+    width: 18px;
+    height: 18px;
+}
+
+.contact-text {
+    font-size: 13px;
+}
+
+
+/* --------------- Main Section ------------------ */
+
+main {
+    padding: 34px 55px;
+    display: flex;
+}
+
+.grid-view {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 30px 0;
+}
+
+.job {
+    padding-right: 10px;
+}
+
+.sidebar {
+    width: 40%;
+}
+
+.about,
+.follow,
+.skills,
+.languages {
+    padding-right: 0;
+}
+
+.about-title {
+    margin: 0 30px 30px 36px;
+}
+
+.skills-title {
+    text-transform: capitalize;
+    position: relative;
+}
+
+.skills-title::before {
+    content: '';
+    position: absolute;
+    display: block;
+    border-top: 1px solid #626264;
+    height: 2px;
+    width: 90px;
+    top: 10px;
+    right: 0;
+}
+
+.html::after,
+.css::after,
+.javascript::after,
+.python::after,
+.kazakh::after,
+.russian::after,
+.english::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #626264;
+    top: 7px;
+    
+}
+
+.html::after {
+    right: 12px;
+}
+
+.css::after {
+    right: 18px;
+}
+
+.javascript::after {
+    right: 35px;
+}
+
+.python::after {
+    right: 22px;
+}
+
+.kazakh::after {
+    right: 0px;
+}
+
+.russian::after {
+    right: 7px;
+}
+
+.english::after {
+    right: 28px;
+}
