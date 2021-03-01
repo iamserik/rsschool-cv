@@ -206,3 +206,18 @@ main {
 .english::after {
     right: 28px;
 }
+
+
+/* ---------- Footer -------------- */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272C32;
+    color: #ffffff;
+    padding: 55px;
+}
+
+.year {
+    font-size: 24px;
+}
